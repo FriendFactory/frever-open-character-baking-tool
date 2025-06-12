@@ -1,0 +1,20 @@
+{
+    "name": "UMA.PowerTools",
+    "rootNamespace": "",
+    "references": [
+        "GUID:06f16ad38f83d3947879ee2ed1b7b767",
+        "GUID:5ca2134e1cc967940b766102660e86e9",
+        "GUID:4076c587dca90d040be2e6b5c79a2105"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

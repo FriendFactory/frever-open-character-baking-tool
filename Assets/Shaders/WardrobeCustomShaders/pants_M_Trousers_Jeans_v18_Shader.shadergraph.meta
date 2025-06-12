@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 77ffc2d548e6e4a1489227fe871c7d4b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: pants_m_trousers_jeans_v18_base
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}

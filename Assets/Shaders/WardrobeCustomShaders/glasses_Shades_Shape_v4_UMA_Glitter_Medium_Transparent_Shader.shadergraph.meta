@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: ed1c970a6ee614632b9616bdacf582a2
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: glasses_shades_shape_v4_base
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}

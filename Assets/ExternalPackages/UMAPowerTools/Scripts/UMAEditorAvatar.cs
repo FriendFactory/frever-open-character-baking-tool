@@ -1,0 +1,115 @@
+﻿using UMA;
+using UnityEngine;
+using System.Collections;
+
+namespace UMA.PowerTools
+{
+	[ExecuteInEditMode]
+	public class UMAEditorAvatar : MonoBehaviour
+	{
+#if UNITY_EDITOR
+		public Animator animator;
+		public UMAGeneratorBuiltin umaGenerator;
+		public UMAContext context;
+		public bool destroyParent;
+
+		void Awake()
+		{
+#if UNITY_EDITOR
+			UnityEditor.EditorApplication.update += new UnityEditor.EditorApplication.CallbackFunction(Update);
+#endif
+		}
+
+		void OnDestroy()
+		{
+#if UNITY_EDITOR
+			UnityEditor.EditorApplication.update -= new UnityEditor.EditorApplication.CallbackFunction(Update);
+#endif
+		}
+
+		private float lastFrameTime = -1;
+		public void Update()
+		{
+			if (animator != null)
+			{
+				var currentFrameTime = Time.realtimeSinceStartup;
+				if (lastFrameTime != -1)
+				{
+					animator.Update(currentFrameTime - lastFrameTime);
+				}
+				lastFrameTime = currentFrameTime;
+			}
+		}
+
+		public bool Show(UMARecipeBase recipe, RuntimeAnimatorController animationController, System.Action<UMAData> callback)
+		{
+			umaGenerator = GetGenerator();
+			if (umaGenerator == null) return false;
+			umaGenerator.Awake();
+
+			var umaData = gameObject.AddComponent<UMAData>();
+			umaData.umaRecipe = new UMAData.UMARecipe();
+			if (callback != null)
+			{
+				umaData.OnCharacterUpdated += callback;
+			}
+
+			context = UMAContext.FindInstance();
+			context.ValidateDictionaries();
+			recipe.Load(umaData.umaRecipe, context);
+			umaData.umaGenerator = umaGenerator;
+
+			umaData.Dirty(true, true, true);
+			umaData.firstBake = true;
+			umaData.animationController = animationController;
+			var theGO = umaData.gameObject;
+			while (!umaGenerator.IsIdle())
+			{
+				umaGenerator.OnDirtyUpdate();
+			}
+			lastFrameTime = -1;
+			if( this == null )
+			{
+				DestroyImmediate(theGO);
+			}
+			else
+			{
+				for(int i = 0; i < umaData.rendererCount; i++)
+					umaData.GetRenderer(i).hideFlags = gameObject.hideFlags;
+				animator = umaData.animator;
+			}
+#if UNITY_EDITOR
+			if (!UnityEditor.EditorApplication.isPlaying && umaGenerator.textureMerge != null)
+			{
+				umaGenerator.textureMerge.Reset();
+			}
+#endif
+			return true;
+		}
+
+		private UMAGeneratorBuiltin GetGenerator()
+		{
+			var umaGenerator = FindObjectOfType<UMAGeneratorBuiltin>();
+			if (umaGenerator != null)
+			{
+				return umaGenerator;
+			}
+			Debug.LogError("Unable to find a suitable UMAGenerator in the scene");
+			return null;
+		}
+
+		public void Hide()
+		{
+			var umaData = GetComponent<UMAData>();
+			if (umaData != null)
+			{
+				umaData.CleanTextures();
+				umaData.firstBake = true;
+				umaData.animator = null;
+				UMAUtils.DestroySceneObject(umaData);
+			}
+			UMAUtils.DestroySceneObject(destroyParent ? transform.parent.gameObject : gameObject);
+		}
+#endif
+	}
+}

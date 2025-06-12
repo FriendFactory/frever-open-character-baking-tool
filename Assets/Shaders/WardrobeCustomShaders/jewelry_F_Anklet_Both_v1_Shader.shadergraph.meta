@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: cc90e30b03abb46e5aa6145b7600a2da
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: jewelry_f_anklet_both_v1_base
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}

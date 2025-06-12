@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: c51ec2c250bae7e408e50bf16f88d56b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: accessory_f_other_wrist_v5_base
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}

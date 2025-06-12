@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 62b391901f3a401499c275182180c2e5
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: shirt_f_hoodie_crop_v2_base
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}

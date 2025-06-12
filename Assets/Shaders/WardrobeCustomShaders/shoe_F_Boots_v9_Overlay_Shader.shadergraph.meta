@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: a339f69fc49ad41f4b26bfa687f0aed8
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: shoe_f_boots_v9_base
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}

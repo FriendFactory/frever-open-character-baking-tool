@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 0a30bbf4001c8b34288f7e34835c837c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: outfit_f_theme_astronaut_v2_base
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}

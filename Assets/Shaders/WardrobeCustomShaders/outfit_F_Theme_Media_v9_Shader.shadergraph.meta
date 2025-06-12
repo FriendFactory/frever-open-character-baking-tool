@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 8d706d4053e3f4545afe6efbbbee6d76
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: outfit_f_theme_media_v9_base
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}

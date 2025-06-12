@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 242867ffe9985de4f9a25453eb4d4adb
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: outfit_f_jumpsuit_fancy_v4_base
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}

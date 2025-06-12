@@ -1,0 +1,22 @@
+{
+    "name": "ExportCharacterTool",
+    "rootNamespace": "ExportCharacterTool",
+    "references": [
+        "GUID:06f16ad38f83d3947879ee2ed1b7b767",
+        "GUID:a1bcf09662ac54422ad2098e60e912f7",
+        "GUID:f6e4e8eb82afa466babdd1af14389049",
+        "GUID:c4b3bd7744e74a74bbdb23b4ddae49e0",
+        "GUID:032147b428afd7740a7bb5297557ba4d",
+        "GUID:832a1eb3ad7d547a0a57b70cf5f729a1",
+        "GUID:7550183ecd2184fdf9896b03563175f5"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

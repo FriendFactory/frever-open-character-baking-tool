@@ -1,0 +1,15 @@
+{
+    "name": "UMA_Content",
+    "references": [
+        "GUID:06f16ad38f83d3947879ee2ed1b7b767"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

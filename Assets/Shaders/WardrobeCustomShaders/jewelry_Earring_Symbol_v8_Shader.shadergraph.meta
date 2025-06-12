@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 724a7ccee6a674732a576ac09076c93a
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: jewelry_earring_symbol_v8_base
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}

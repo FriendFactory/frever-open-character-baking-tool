@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: f34a105f5cddf644c94b45cc87ad586e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: hair_tails_halfuphalfdown_v11_base
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}

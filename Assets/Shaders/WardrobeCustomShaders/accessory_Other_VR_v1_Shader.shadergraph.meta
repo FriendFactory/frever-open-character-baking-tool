@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: f87c8c842bb348346903cc1a29c34f8e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: accessory_other_vr_v1_base
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}

@@ -1,0 +1,20 @@
+{
+    "name": "UMA_Core",
+    "references": [
+        "GUID:f06555f75b070af458a003d92f9efb00",
+        "GUID:d0933ab009fea40f1ac4bb6c56b71653",
+        "GUID:3aa80c87b5d5f46d98c44fd7569038b4",
+        "GUID:032147b428afd7740a7bb5297557ba4d",
+        "GUID:b15a3e9b7a0f44443951f790dbf48646",
+        "GUID:3fbacc0e5ec72ef4ca50d9c4a02425ee"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

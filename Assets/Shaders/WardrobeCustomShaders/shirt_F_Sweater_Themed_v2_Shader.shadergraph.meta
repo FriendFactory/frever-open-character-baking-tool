@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: f83daf99d4290ca4db21a71d98787387
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: shirt_f_sweater_themed_v2_base
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}

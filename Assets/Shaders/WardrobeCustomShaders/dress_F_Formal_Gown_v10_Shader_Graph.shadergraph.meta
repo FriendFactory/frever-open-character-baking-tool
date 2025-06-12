@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: ed3f3f2b15211d7428a217a840ed7d81
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: dress_f_formal_gown_v10_base
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}

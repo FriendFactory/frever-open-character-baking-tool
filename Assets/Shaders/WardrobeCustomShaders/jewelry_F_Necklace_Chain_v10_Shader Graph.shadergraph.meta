@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 678c645984c363845a013477270360ce
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: jewelry_f_necklace_chain_v10_base
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
